@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css';
-import Home from './pages/home/Home.jsx';
-import Login from './pages/login/Login.jsx';
-import Profile from './pages/profile/Profile.jsx';
+import Home from './pages/home/';
+import Login from './pages/login/';
+import Profile from './pages/profile/';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-import Nav from './componnents/nav/Nav.jsx';
-import Footer from './componnents/footer/Footer.jsx';
+import Nav from './components/nav/Nav.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 function App() {
   return (
