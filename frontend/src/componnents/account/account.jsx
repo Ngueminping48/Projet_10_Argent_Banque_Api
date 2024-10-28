@@ -1,4 +1,3 @@
-
 import './account.css';
 
 function Account ({title, amount, description }) {

@@ -2,8 +2,6 @@ import './profile.css'
 import Account from '../../components/account/account'
 import accountData from '../../data/account.json'
 
-
-
 const Profile = () => {
     const Tony = 'Tony ';
     const Jarvis = 'Jarvis';

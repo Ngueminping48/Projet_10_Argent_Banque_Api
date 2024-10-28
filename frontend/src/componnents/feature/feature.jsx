@@ -1,4 +1,3 @@
-import React from 'react';
 import './feature.css';
 
 function Feature({ image, alt, title, text }) {
