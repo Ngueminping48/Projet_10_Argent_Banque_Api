@@ -1,5 +1,5 @@
 import './home.css'
-import Feature from "../../components/feature/feature";
+import Feature from "../../componnents/feature/Feature";
 import features from "../../data/features.json";
 import iconChat from "../../img/icon-chat.webp";
 import iconMoney from "../../img/icon-money.webp";

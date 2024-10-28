@@ -1,5 +1,5 @@
 import './profile.css'
-import Account from '../../components/account/account'
+import Account from '../../componnents/account/Account';
 import accountData from '../../data/account.json'
 
 const Profile = () => {

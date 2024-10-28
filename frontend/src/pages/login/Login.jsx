@@ -15,7 +15,6 @@ const Login = () => {
         navigate('/profile');
     };
 
-
     return (
         <main className="login bg-dark">
             <section className="sign-in-content">
