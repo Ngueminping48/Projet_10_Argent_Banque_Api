@@ -5,9 +5,10 @@
     font-size: 1.1rem;
     font-weight: bold;
     margin-top: 1rem;
-    border-color: #00bc77;
+    border: none;
     background-color: #00bc77;
     color: #fff;
+    text-decoration: underline;
   }
   
   .sign-in-content {
@@ -20,15 +21,19 @@
   }
   
   .sign-in-icon {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   
-  .input-remember {
+  .form-check {
     display: flex;
   }
   
   .input-remember label {
     margin-left: 0.25rem;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+
   }
   
   .input-wrapper {
