@@ -58,6 +58,13 @@ nav h1 {
     align-items: center;
     gap: 10px;
   }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+  }
 
 
 
