@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Nav = () => {
   const token = useSelector((state) => state.auth.token);
   const dispatch = useDispatch();
-  const firstName = useSelector((state) => state.auth.firstName);
+  const userName = useSelector((state) => state.auth.userName);
   
   const navigate = useNavigate();
 
@@ -25,7 +25,7 @@ const Nav = () => {
         <div className="nav-right">
           <Link to="/profile">
           <i className="fa fa-user-circle"></i>
-          {firstName || "[First Name]"} 
+          {userName || "[User Name]"} 
           </Link>
 
           <Link to="/" onClick={handleLogout}>
