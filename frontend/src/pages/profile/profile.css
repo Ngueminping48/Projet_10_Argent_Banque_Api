@@ -39,6 +39,7 @@ header button {
   margin-left: 15px;
   justify-content: center; 
   align-items: center;
+  border-radius: 5px;
 }
 
 .profile form p {
